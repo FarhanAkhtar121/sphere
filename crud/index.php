@@ -151,7 +151,7 @@ button:hover {
                     <td> <?php echo $user['email']; ?> </td>
                     <td> <?php echo $user['username']; ?> </td>
                     <td>
-                    <a  classs="btn btn-sm btn-danger" href="<?php $_SERVER['SELF']">Delete</a> </td>                   
+                    <a  classs="btn btn-sm btn-danger" href="<?php $_SERVER['SELF']?>?del=<?php echo $user['id'] ?>">Delete</a> </td>                   
                     </tr>
                     <?php
                         
