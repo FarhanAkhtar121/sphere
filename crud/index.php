@@ -18,6 +18,16 @@
          if($fire) echo "data submitted success";
         }
 ?>
+<!-- delete the data -->
+<?php 
+        if(isset($_GET['del'])){
+          echo "del value is set";
+        }
+        else{
+          echo "value  is not set";
+        }
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -159,6 +169,7 @@ button:hover {
                 }
                 
     ?>
+    
     
 </body>
 </html>
